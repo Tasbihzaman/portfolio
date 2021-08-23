@@ -3,7 +3,8 @@
 This portfolio is small project using HTML / CSS and bootstrap. I will be using this to showcase  my project !
 
 [Live Heroku Deployment] (https://portfolio-aktaruzzaman.herokuapp.com/)
-! [Screenshot](image0.jpeg)
+! [Screenshot](![Screen Shot 2021-08-23 at 1 47 27 PM](https://user-images.githubusercontent.com/80218920/130493319-703b707d-ae60-440c-8b48-922cb0d3dd3f.png)
+)
 
 ## Technologies Used
 
