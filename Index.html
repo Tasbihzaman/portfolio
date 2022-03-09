@@ -1,116 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="icon" type="image/png" href="img/techis-logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="icon" type="image/png" href="img/techis-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-        <!-- Container, adjest the width for each device-->
-        <div class="container">
-            <!-- Navbar brand-->
-            <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
-            
-            <!-- Comments -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
+      <!-- Container, adjest the width for each device-->
+      <div class="container">
+        <!-- Navbar brand-->
+        <a class="navbar-brand title-icon" href="#"
+          ><span class="font-primary">P</span>ortfolio</a
+        >
+
+        <!-- Comments -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Comments -->
+        <div class="collapse navbar-collapse" id="navbarToggler">
           <!-- Comments -->
-              <div class="collapse navbar-collapse" id="navbarToggler">
-                  <!-- Comments -->
-                  <!-- Comments -->
-                  <!-- Comments -->
-            <ul class="navbar-nav  ms-auto mb-2">
-              <li class="nav-item">
-                <a class="nav-link font-black" href="#about">About</a>
-              </li>
-              <li class="nav item">
-                  <a class="nav-link font-black" href="#project">Project</a>
-              </li>
-              </ul>
+          <!-- Comments -->
+          <!-- Comments -->
+          <ul class="navbar-nav ms-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link font-black" href="#about">About</a>
+            </li>
+            <li class="nav item">
+              <a class="nav-link font-black" href="#project">Project</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- New work begins -->
+    <div id="about">
+      <h2><span class="font-primary">A</span>bout</h2>
+      <img src="img/15 kb.jpg" />
+      <div class="name">Md Aktaruzzaman</div>
+      <div class="vocation">Web Application Developer</div>
+      <div class="skills">
+        HTML / CSS / JavaScript / React.js / Redux / Python / Django /
+        Express.js / AWS(Basics) / Docker(Basics)
+      </div>
+      <p>
+        As SPA that displays subreddit data from Reddit for a specified time
+        period. As the front-end developer, I worked.
+      </p>
+      <div class="email">example@techis.io</div>
+      <div class="icons">
+        <a href="https://github.com/Tasbihzaman/"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/mdzaman19/"
+          ><i class="bi bi-linkedin ms-3"></i
+        ></a>
+      </div>
+    </div>
+
+    <div id="project">
+      <h2><span class="font-primary">P</span>roject</h2>
+
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video id="video" autoplay muted controls>
+              <source src="video/ethopian.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Ethiopian Visitors' Guide</h5>
+              <p class="card-text">
+                <strong>Project Description:</strong>Visiting Ethiopia? This
+                virtual guide is extremely handy, you can scan the entire area
+                in Ethiopia and find invaluable information of major
+                attractions, places of interest, events, museums, plays, etc.,
+                and even probable locations of rare species of wild animals
+                which you may be lucky enough to catch a glimpse of! With this
+                app, you can easily navigate your time in Ethiopia!
+              </p>
+              <!-- <p class="card-text"><small class="text-muted">
+	Test Login Account <br>
+	Email : test@gmail.com <br>
+	Password : 12345
+	</small></p> -->
+              <a
+                href="https://front-end-gd.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                Website Link</a
+              >
+              <a
+                href="https://github.com/group-development-project/group-project-europian-visitors.git"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                Github Link</a
+              >
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
 
-<!-- New work begins -->
-<div id="about">
-<h2><span class="font-primary">A</span>bout</h2>
-<img src="img/15 kb.jpg">
-<div class="name">Md Aktaruzzaman</div>
-<div class="vocation">Web Application Developer</div>
-<div class="skills">HTML / CSS / JavaScript / React.js / Redux / Python / Django / Express.js / AWS(Basics) / Docker(Basics) </div>
-<p>
-As SPA that displays subreddit data from Reddit for a specified time period. As the front-end developer, I worked.
-</p>
-<div class="email">example@techis.io</div>
-<div class="icons">
-<<<<<<< HEAD
-<a href="https://github.com/Tasbihzaman"><i class="bi bi-github"></i></a>
-=======
-<a href="https://github.com/Tasbihzaman/"><i class="bi bi-github"></i></a>
->>>>>>> cd77c27bb108246938c3b1af7bac431615463680
-<a href="https://www.linkedin.com/in/mdzaman19/"><i class="bi bi-linkedin ms-3"></i></a>
-</div>
-</div>
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video id="video" autoplay muted controls>
+              <source src="video/fresh-zest.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Fresh Zest</h5>
+              <p class="card-text">
+                <strong>Project Description:</strong>This is a mini e-commerce
+                project that introduces a fresh and exciting way to sell
+                lemonade! It’s a great way to stay refreshed this summer by
+                ordering refreshing lemonades with a single zesty click! Saves
+                you the commute time and expense by placing your orders from the
+                comfort of your home!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Test Login Account <br />
+                  Email : test@gmail.com <br />
+                  Password : 12345
+                </small>
+              </p>
+              <a
+                href="https://front-end-zaman.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                Website Link</a
+              >
+              <a
+                href="https://github.com/Tasbihzaman/self-development-lemonade.git"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                Github Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
 
-<div id="project">
-<h2><span class="font-primary">P</span>roject</h2>
-
-<div class="card mb-3">
-  <div class="row">
-    <div class="col-md-4">
-      <img src="img/project-twitter.png" class="img-fluid rounded-start" alt="Twitter Project">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Twitter Clone</h5>
-        <p class="card-text">This is a twitter base project</p>
-	<p class="card-text"><small class="text-muted">
-	Test Login Account <br>
-	Email : test@gmail.com <br>
-	Password : 12345
-	</small></p>
-        <a href="#" target="_blank" class="btn btn-secondary"> Website Link</a>
-	<a href="#" target="_blank" class="btn btn-secondary"> Github Link</a>
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video id="video" autoplay muted controls>
+              <source src="video/Twitter Clone.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Twitter Clone</h5>
+              <p class="card-text">
+                <strong>Project Description : </strong>Users can post tweets and
+                see everyone's in our app. To keep the project simple, we do not
+                include a sign up/login in functionality. But you can learn
+                CRUD(Create/Read/Update/Delete) through this project.
+              </p>
+              <p class="card-text">
+                <strong>Skills Used : </strong>HTML/CSS/Javascript / JQuery/
+                Django/ Cloudinary.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <br />
+                  <br />
+                </small>
+              </p>
+              <a
+                href="https://twitter-akter.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                Website Link</a
+              >
+              <a
+                href="https://github.com/Tasbihzaman/twitter.git"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                Github Link</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-
-<div class="card mb-3">
-  <div class="row">
-    <div class="col-md-4">
-      <img src="img/project-netflix.png" class="img-fluid rounded-start" alt="Netflix Project">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Netflix Clone</h5>
-        <p class="card-text">This is a Netflix base project using HTML / CSS / Js</p>
-	<p class="card-text"><small class="text-muted">
-	Test Login Account <br>
-	Email : test@gmail.com <br>
-	Password : 12345
-	</small></p>
-        <a href="#" target="_blank" class="btn btn-secondary"> Website Link</a>
-	<a href="#" target="_blank" class="btn btn-secondary"> Github Link</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
